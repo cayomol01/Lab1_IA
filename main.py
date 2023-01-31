@@ -70,8 +70,9 @@ def Solution(algorithm):
     
     ima.save("img/solution"+str(algorithm)+".bmp")
 
-
-Solution(2)
+Solution(0) #Breadth-first
+Solution(1) #Depth-First
+Solution(2) #A*
 
 
     
